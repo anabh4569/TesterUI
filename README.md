@@ -1,4 +1,4 @@
-# TesterUI [![Build Status](https://travis-ci.org/anabh4569/TesterUI.svg?branch=master)](https://travis-ci.org/anabh4569/TesterUI)
+# TesterUI
 
 The Tester UI subproject for Nl2Bash presents users with potential English/Bash
 pairs gathered from sites like StackOverflow from the NL2BashWebScraper component,
