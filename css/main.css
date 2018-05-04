@@ -14,6 +14,11 @@
   height: 100%;
 }
 
+/* Space the bash commands from the checkboxes */
+code {
+  margin-left: 0.5em;
+}
+
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {
   .sidenav {

@@ -39,7 +39,19 @@
         <h1>Which commands best satisfy the given question?</h1>
         <p>Sample question: how much wood would a woodchuck chuck if a woodchuck could chuck wood?</p>
         <hr>
-        <p>magic number in the row content css semantics atm</p>
+        <label>
+          <input type ="checkbox" name="cBox[]" value = "1" class="uCheckBox"><code>find chuck . wood | grep woodchuck</code></input>
+        </label>
+        <br>
+        <label>
+          <input type ="checkbox" name="cBox[]" value = "1" class="uCheckBox"><code>ls -a ./wood/chuck/chuck | grep wood</code></input>
+        </label>
+        <br>
+        <label>
+          <input type ="checkbox" name="cBox[]" value = "1" class="uCheckBox"><code>mistake! don't select this guy!</code></input>
+        </label>
+        <br>
+        <button type="submit" class="btn btn-default">Submit</button>
       </div>
       <div class="col-sm-2 sidebar"></div>
     </div>
